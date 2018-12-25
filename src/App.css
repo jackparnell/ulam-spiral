@@ -1,0 +1,30 @@
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 10px;
+  line-height: 21px;
+  height: 21px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 21px;
+}
+
+.prime {
+  background-color: #61dafb;
+}
+
+.negative {
+  background-color: lightcoral;
+}
+
+.board {
+  display: flex;
+  flex-direction: row;
+}
+
+nav {
+  z-index: 10;
+}
