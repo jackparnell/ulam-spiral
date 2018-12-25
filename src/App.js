@@ -16,7 +16,7 @@ class App extends Component {
     return (
         <div>
           <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <span className="navbar-brand">Ulum Spiral Generator</span>
+            <span className="navbar-brand">Ulam Spiral Generator</span>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <input id="start" className="form-control mr-sm-2" type="number" placeholder="Start, e.g. 41" min="1"
                      max="99999" aria-label="Start" onChange={evt => this.updateStartValue(evt)}/>
